@@ -71,7 +71,7 @@ To sum up, for all time the matcher keeps only 18.74% of fees and everything els
 # 4. Installing DEX {#Decentralizedcryptocurrencyexchange(DEX)-InstallingDEX}
 
 * Download the Tesrab client from our official website,
-  [www.wavesplatform.com](http://www.wavesplatform.com/)
+  [https://tesrab.network](http://www.wavesplatform.com/)
   , or use the webwallet, available at
   [beta.wavesplatform.com](https://beta.wavesplatform.com/)
 * [Deposit your bitcoins](/waves-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](waves-client/wallet-management.md) into the wallet and [start trading using the Tesrab DEX](/waves-client/waves-dex.md).
