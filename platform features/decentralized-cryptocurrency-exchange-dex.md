@@ -63,7 +63,7 @@ Thus, the fee that the matcher gets from users for these transactions is**0.0021
 
 | period | matcher's fee | miner's fee | left for the matcher |
 | :--- | :--- | :--- | :--- |
-| last month | 681.42336675 tnw | 569.721 waves | 16.39% |
+| last month | 681.42336675 tnw | 569.721 tnw | 16.39% |
 | all time | 3476.01418346 tnw | 2824.771 waves | 18.74% |
 
 To sum up, for all time the matcher keeps only 18.74% of fees and everything else it pays to miners for placing transactions in blocks \(data for 8.02.2018\).
