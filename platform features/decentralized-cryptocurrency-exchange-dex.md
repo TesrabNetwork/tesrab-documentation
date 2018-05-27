@@ -73,7 +73,7 @@ To sum up, for all time the matcher keeps only 18.74% of fees and everything els
 * Download the Tesrab client from our official website,
   [https://tesrab.network](http://tesrab.network/)
   , or use the webwallet, available at
-  [beta.tesrab.network](https://beta.wavesplatform.com/)
+  [beta.tesrab.network](https://beta.tesrab.network/)
 * [Deposit your bitcoins](/waves-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](waves-client/wallet-management.md) into the wallet and [start trading using the Tesrab DEX](/waves-client/waves-dex.md).
 
 # 5. Installing your Own Matcher {#Decentralizedcryptocurrencyexchange(DEX)-InstallingyourOwnMatcher}
