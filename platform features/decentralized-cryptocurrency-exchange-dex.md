@@ -14,7 +14,7 @@ Also with such lack of automatic matching and fast cancellation, there is vulner
 
 What if we decentralize not all components of exchange, but only the matcher part? This design eliminates two of the described problems above: the arbitrageur with already canceled orders, and miners front-running. Unlike centralized exchanges, the decentralized solution with centralized matcher won’t have the power to steal users’ deposits.
 
-# 2. Tesrab DEX {#Decentralizedcryptocurrencyexchange(DEX)-WavesDEX}
+# 2. Tesrab DEX {#Decentralizedcryptocurrencyexchange(DEX)-TesrabDEX}
 
 Tesrab provides a decentralized exchange \(DEX\), which allows trading different assets back and forth between users, as a traditional exchange, with stronger security guarantees to end users due to its decentralized nature. An opportunity of creating some new assets, based on Tesrab, allows early trading of a crowdfunding stake, that provides liquidity for tokens. For this purpose, tokens should be sold in public locations, where buyers and sellers may post orders.
 
