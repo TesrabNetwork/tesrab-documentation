@@ -11,7 +11,7 @@ As of June 2018, listing fees on any of the top 10 crypto exchanges ranged anywh
   [https://tesrab.network](http://tesrab.network/)
   , or use the webwallet, available at
   [https://tesrab.network/beta](https://tesrab.network/beta)
-* [Deposit your bitcoins](/online-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](online-client/wallet-management.md) into the wallet and [start trading using the Tesrab DEX](/tesrab-client/tesrab-dex.md).
+* [Deposit your bitcoins](/online-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](online-client/wallet-management.md) into the wallet and [start trading using the Tesrab DEX](/online-client/tesrab-dex.md).
 
 # 5. Installing your Own Matcher {#Decentralizedcryptocurrencyexchange(DEX)-InstallingyourOwnMatcher}
 
