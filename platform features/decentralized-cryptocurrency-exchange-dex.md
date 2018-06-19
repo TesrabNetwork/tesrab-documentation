@@ -36,50 +36,13 @@ The full execution cycle for one order is following:
 
 In every time of order's life, it has a certain state, depending on which stage of its life cycle it is now. When an order is in an order book, but not filled yet - it has "Accepted" state, also it can be "Filled", "Partially Filled" or "Canceled". Orders, which are not fully filled, can be canceled, after that the order will be removed from matcher's order book.
 
-# 3. Matcher fee calculation {#Decentralizedcryptocurrencyexchange(DEX)-Matcherfeecalculation}
 
-The fix full transaction fee now is equal to **0.003 tesrab for one order**, whether buying or selling, regardless of the amount of the future deal. The exchange transaction contains two separate fields for Matcher's fee, which goes from buyer's order and seller's order. An order can be fully executed by some transaction, in this case, all matcher fee from it is included in that transaction.
-
-If the order is **partially** executed by some deal-transaction, matcherFee is included in that transaction proportionally to the executed amount, i.e.
-
-**executedAmount \* orderMatcherFee / orderAmount.**
-
-The remaining matcher fee for this order will be included in other transactions until order's full execution.
-
-## 3.1 Example:
-
-There are 3 different orders \(Figure 2\): two buy orders and one sell. For each full order, a user has to pay exactly **0.003 tesrab** of a fee, and this fee will be written off as the order is executed. In our example:
-
-* the Order1 is fully matched with a 70% part of Order3 by Transaction1 and matcher's fee for this transaction is equal to 0.003 + 0.0021 - 0.003 = 0.0021 tesrab since Matcher pay to miners transaction fee which is also equal to 0.003 Tesrab.
-* The 50% of Order2 matches with 30% part of Order3 by Transaction2 and matcher's fee for this transaction is equal to 0.0009 + 0.0015 - 0.003 = -0.0006 tesrab.
-
-Thus, the fee that the matcher gets from users for these transactions is**0.0021 - 0.0006  = 0.0015 tesrab**. And the fee that the matcher pays to miners is**0.006waves**.
-
-![](/_assets/matcher.png)Figure 2: example of matcher's fee work, TX1 - Transaction1, TX2 - Transaction2, Ord1 - Order1, Ord2 - Order2, Ord3 - Order3
-
-###  {#Decentralizedcryptocurrencyexchange(DEX)-Summary:}
-
-### Summary: {#Decentralizedcryptocurrencyexchange(DEX)-Summary:}
-
-| period | matcher's fee | miner's fee | left for the matcher |
-| :--- | :--- | :--- | :--- |
-| last month | 681.42336675 tnw | 569.721 tnw | 16.39% |
-| all time | 3476.01418346 tnw | 2824.771 tnw | 18.74% |
-
-To sum up, for all time the matcher keeps only 18.74% of fees and everything else it pays to miners for placing transactions in blocks \(data for 8.02.2018\).
-
-# 4. Installing DEX {#Decentralizedcryptocurrencyexchange(DEX)-InstallingDEX}
+# 3. Installing DEX {#Decentralizedcryptocurrencyexchange(DEX)-InstallingDEX}
 
 * Download the Tesrab client from our official website,
-  [https://tesrab.network](http://tesrab.network/)
+  [https://tesrab.network](http://tesrab.network/) available soon
   , or use the webwallet, available at
   [beta.tesrab.network](https://beta.tesrab.network/)
 * [Deposit your bitcoins](/tesrab-client/transfers-and-gateways/bitcoin-transfers.md) or any [supported coins and tokens](tesrab-client/wallet-management.md) into the wallet and [start trading using the Tesrab DEX](/tesrab-client/tesrab-dex.md).
 
-# 5. Installing your Own Matcher {#Decentralizedcryptocurrencyexchange(DEX)-InstallingyourOwnMatcher}
 
-* Users can install their own matcher by installing the Tesrab software and enabling the matching functionality.
-* The Matcher earns fees from the services it provides, so you can substantially increase your mining revenues.
-* When a user sends an order to Matcher he doesn't transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order.
-
-**Note.** Find more technical details about the Matcher [**here.**](/development-and-api/dex-api/matcher.md)
