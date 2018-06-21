@@ -1,4 +1,4 @@
-# Focus On Africa
+# focus-on-africa
 
 ## Motivation {#FocusOnAfrica-Motivation}
 
