@@ -4,4 +4,4 @@ Tesrab Network is an open blockchain platform which is a fully functional exchan
 
 It's decentralized multi-purpose exchange platform (fully decentralized, transparent and auditable) built on top of the Waves Platform.
 
-**Note** The instructions of using this documentation guide will be published at a later date.
+**Note** These documents are updated on a regular basis and thus a work in progress.
