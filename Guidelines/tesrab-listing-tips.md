@@ -1,5 +1,5 @@
-# IDEX Token Listing Guidelines 
- IDEX is the world’s first real-time decentralized cryptocurrency exchange, providing traders a straightforward interface with the robust security of a decentralized network. Please read the following guidelines regarding our token submission and review process:  
+# Token Listing Guidelines 
+ Tesrab DEX is a real-time decentralized cryptocurrency exchange, providing traders a straightforward interface with the robust security of a decentralized network. Please read the following guidelines regarding our token submission and review process:  
 
 # Token Submission 
  Simply visit the IDEX Token Request Form and provide us your token name, address, precision, website and other pertinent information.    
