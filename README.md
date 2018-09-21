@@ -1,4 +1,4 @@
-# What Is Tesrab Network
+# What Is Tesradex
 Tesrab Project Documentation
 
 Tesrab Network is an open blockchain platform which is a fully functional exchange that is as fast as a centralized one but does not suffer from the same security issues.
